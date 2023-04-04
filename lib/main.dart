@@ -10,7 +10,7 @@ void main() {
           child: Text("I am Rich"),
         ),
       ),
-    body: Image(image: AssetImage("")),
+    body: Image(image: AssetImage("images/asd.jpg")),
     ),
   ));
 }
