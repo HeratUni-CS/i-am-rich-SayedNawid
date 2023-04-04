@@ -5,12 +5,17 @@ void main() {
     debugShowCheckedModeBanner: false,
     home: Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.teal,
         title: Center(
           child: Text("I am Rich"),
         ),
       ),
-    body: Image(image: AssetImage("images/asd.jpg")),
+    body:Container(
+      color: Colors.teal.shade900,
+      child: Center(
+        child: Image(image: AssetImage("images/asd.jpg")),
+      ),
+    )
     ),
   ));
 }
